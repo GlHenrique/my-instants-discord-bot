@@ -3,12 +3,19 @@ import os
 
 from discord import Activity, ActivityType, Intents
 from discord.ext import commands
+from dotenv import load_dotenv
 from loguru import logger
 
 from bot.client import InstantClient
 from bot.exceptions import MissingBotToken
 
+# Carregar variáveis do arquivo .env
+load_dotenv()
+
 intents = Intents.default()
+intents.message_content = True
+intents.members = True
+intents.voice_states = True
 
 bot = commands.Bot(
     command_prefix=commands.when_mentioned_or('>'),
