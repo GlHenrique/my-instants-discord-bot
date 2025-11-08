@@ -3,7 +3,11 @@ FROM python:3.10.19
 # OS dependencies
 RUN apt-get update && \
     apt-get upgrade -y && \
-    apt-get install -y ffmpeg && \
+    apt-get install -y --no-install-recommends \
+        ffmpeg \
+        build-essential \
+        python3-dev \
+        libffi-dev && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
