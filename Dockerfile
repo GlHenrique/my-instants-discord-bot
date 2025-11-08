@@ -1,4 +1,4 @@
-FROM python:3.10.19
+FROM python:3.9.13
 
 # OS dependencies
 RUN apt-get update && \
