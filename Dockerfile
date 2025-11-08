@@ -1,4 +1,4 @@
-FROM python:3.10.19-trixie
+FROM python:3.10.19
 
 # OS dependencies
 RUN apt-get update && \
