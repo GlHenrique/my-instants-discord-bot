@@ -13,13 +13,13 @@
     <img src="https://images-na.ssl-images-amazon.com/images/I/61LNAo2K9RL.png" alt="Logo" width="256" height="256">
   </a>
 
-  <h3 align="center">MyInstants Discord Bot</h3>
+  <h3 align="center">Fork - MyInstants Discord Bot</h3>
 
   <p align="center">
     A simple discord bot to play <a href="https://www.myinstants.com/">MyInstants</a> sounds.
     <br />
     <br />
-    <a href="https://discord.com/api/oauth2/authorize?client_id=836019264124354571&permissions=2150747200&scope=bot">
+    <a href="https://discord.com/api/oauth2/authorize?client_id=1436153789752152154&permissions=2150747200&scope=bot">
         Invite the bot to your Discord server!
         <br />
         <img src="https://discord.com/assets/e4923594e694a21542a489471ecffa50.svg" alt="Add to your discord server" height="100">
