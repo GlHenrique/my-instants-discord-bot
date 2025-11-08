@@ -1,4 +1,4 @@
-FROM python:3.11-slim-bookworm
+FROM python:3.10.19-trixie
 
 # OS dependencies
 RUN apt-get update && \
